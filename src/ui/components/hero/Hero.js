@@ -1,0 +1,16 @@
+import React from 'react';
+import backgroundImage from '../../../assets/herobackground.svg';
+import './hero.css';
+
+const Hero = () => {
+  return (
+    <div className="hero-container" style={{ backgroundImage: `url(${backgroundImage})` }}>
+      <h1 className='main-text'>Preserve and share memories of your</h1>
+      <p className='second-para'>loved ones</p>
+      <p className='third-para'>Join our compassionate community as we weave together the threads of remembrance, sharing stories, photos, and tributes that celebrate the legacies that continue to inspire us.</p>
+      <button className='mBtn'>Create a Memorial</button>
+    </div>
+  );
+};
+
+export default Hero;

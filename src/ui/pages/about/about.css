@@ -1,0 +1,46 @@
+.aboutpage {
+  width: 100%;
+  /* padding: 15px 10px; */
+  box-sizing: border-box;
+}
+
+.ab-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ab-top > .content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content > .tp {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #5c5470;
+  width: 80%;
+}
+.content > .btm {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  /* or 167% */
+
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+
+  color: #333333;
+  text-align: left;
+}
