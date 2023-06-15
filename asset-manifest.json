@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/memorialsite/static/css/main.255fd0e2.css",
+    "main.js": "/memorialsite/static/js/main.0dfdd88c.js",
+    "static/media/herobackground.svg": "/memorialsite/static/media/herobackground.dc3c856b1ad1e19ead23d5ace4da05f1.svg",
+    "static/media/ipad.png": "/memorialsite/static/media/ipad.2f829a479adf80658d30.png",
+    "static/media/RastantyCortez.ttf": "/memorialsite/static/media/RastantyCortez.0d9acbdd1a96b750954f.ttf",
+    "static/media/logo.svg": "/memorialsite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Vector-3.svg": "/memorialsite/static/media/Vector-3.8642d5b3782e8f78c38bd1bce9e21d90.svg",
+    "static/media/img6.svg": "/memorialsite/static/media/img6.dee1fdb014f674ce3f48cfa51d6e335e.svg",
+    "static/media/Vector-1.svg": "/memorialsite/static/media/Vector-1.37a5bc88df08842afe3993293c7667ec.svg",
+    "index.html": "/memorialsite/index.html",
+    "static/media/img2.svg": "/memorialsite/static/media/img2.58cefd4a2589e010bb9222f829428023.svg",
+    "static/media/Vector.svg": "/memorialsite/static/media/Vector.a0f180700e9fa981feced2aa4a917798.svg",
+    "static/media/img4.svg": "/memorialsite/static/media/img4.b74b0ea3cb186ef791e4cdfa553c9f01.svg",
+    "static/media/img1.svg": "/memorialsite/static/media/img1.baac881defba15b1d3e653f4139e78eb.svg",
+    "static/media/img5.svg": "/memorialsite/static/media/img5.02aa7fa938af961476fa7af0e4ba5d2f.svg",
+    "static/media/img3.svg": "/memorialsite/static/media/img3.ca521b883c1692f5d735313abf861aac.svg",
+    "static/media/Search.svg": "/memorialsite/static/media/Search.1190ea7c950de9062e53f9c9c2849304.svg",
+    "static/media/Vector-2.svg": "/memorialsite/static/media/Vector-2.2e210bb5d256e1edeb8bea2140d55d9a.svg",
+    "static/media/arraw.svg": "/memorialsite/static/media/arraw.eab4f8233940dd1032456b8b3e1fa9be.svg",
+    "static/media/greater.svg": "/memorialsite/static/media/greater.a12d079707b4a4c04a60cb99b66de3a2.svg",
+    "static/media/tick.svg": "/memorialsite/static/media/tick.e4439d734dcec3d4ef3bc841928b494a.svg",
+    "static/media/line.svg": "/memorialsite/static/media/line.80f5030391519b224ba6e40f7243f0b0.svg",
+    "main.255fd0e2.css.map": "/memorialsite/static/css/main.255fd0e2.css.map",
+    "main.0dfdd88c.js.map": "/memorialsite/static/js/main.0dfdd88c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.255fd0e2.css",
+    "static/js/main.0dfdd88c.js"
+  ]
+}
