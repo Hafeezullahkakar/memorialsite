@@ -4,12 +4,10 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 0px;
-gap: 120px;
 width: 100%;
-position: absolute;
-width: 1280px;
+
 height: 160px;
-left: calc(50% - 1280px/2 - 7px);
+
 background: #F5F5F5;
 }
 
@@ -21,6 +19,7 @@ ul{
 }
 li{
     padding: 20px;
+    width: 100%;
 }
 
 .textContainer{

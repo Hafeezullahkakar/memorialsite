@@ -1,0 +1,111 @@
+.testimonials-container {
+    background-color: #5C5470;
+    padding: 20px;
+    height: 466px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #FFFFFF;
+    position: relative;
+    
+  }
+  
+  .testimonials-heading {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  
+  .testimonials-slider {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: center;
+    overflow: hidden;
+    
+  }
+  .testimonials-slide-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .arrow-button {
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    font-size: 94px;
+    cursor: pointer;
+    opacity: 0.2;
+  }
+
+  .arrow-button:hover{
+    opacity: 1;
+  }
+  
+  .previous-button {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    z-index: 999;
+     
+  }
+  
+  .next-button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .testimonials-slide {
+  
+    font-size: 18px;
+    padding: 10px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    width: 700px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    margin: 0 20px; /* Adjust the margin as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+  }
+  .testimonials-slide:nth-child(0){
+    padding: 200px;
+  }
+  
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  
+  .testimonial.active {
+    padding: 10px 200px;
+  }
+  
+  .testimonials-author {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 38px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+  }
+  

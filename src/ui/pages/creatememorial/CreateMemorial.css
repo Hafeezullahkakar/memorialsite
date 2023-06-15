@@ -1,0 +1,56 @@
+.memrialpage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: column;
+}
+.memrialpage > h1 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #5c5470;
+  margin-top: 40px;
+}
+
+.breadcrum {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.breadcrum > p {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 15px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  color: #5c5470;
+}
+.breadcrum > p > span > img {
+  /* margin-top: 7px; */
+  margin-left: 6px;
+  font-size: 10px;
+}
+
+
+.breadcrum_component{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+    
+}

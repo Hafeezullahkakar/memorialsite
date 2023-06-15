@@ -26,6 +26,7 @@ ul {
 
 li {
   margin: 0 10px;
+  width: fit-content !important;
 }
 
 a {
@@ -74,6 +75,7 @@ ul {
   color: #fff;
   background: #5c5470;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 li {
@@ -81,6 +83,29 @@ li {
   position: relative;
 }
 
+.login {
+  color: white;
+  width: 112px;
+  height: 40px;
+  background: #5c5470;
+  border-radius: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.login-button:hover {
+  color: white;
+  text-decoration: none !important;
+}
 a {
   color: #333;
   text-decoration: none;
@@ -118,11 +143,23 @@ a:hover::after {
 a:hover::after {
   animation: underline 0.3s forwards;
 }
+@keyframes underline {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+a:hover:not(.login-button)::after {
+  animation: underline 0.3s forwards;
+}
+
 
 @media (max-width: 768px) {
-
   .nav-links {
-    display: none; 
+    display: none;
     flex-direction: column;
     position: absolute;
     top: 100%;
