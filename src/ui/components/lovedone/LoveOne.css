@@ -118,7 +118,7 @@ textarea {
   color: #5c5470;
   margin-top: -10px;
 }
-.cusend {
+.contBtn {
   width: 300px;
   height: 40px;
   background: #5c5470;
@@ -134,8 +134,18 @@ textarea {
   cursor: pointer;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 25px;
+  margin-top: 35px;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70%;
+  margin-bottom: 30px;
+}
+.arro{
+  color: white;
+  margin-left: 10px;
+  font-weight: bold;
 }
 
 .lo-title {
@@ -167,4 +177,24 @@ textarea {
 
 .gender-label input[type="radio"]:checked::before {
   background-color: #5c5470;
+}
+
+.hidShow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hidShow > img {
+  cursor: pointer;
+}
+
+.http {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30px;
+}
+.http > input {
+  margin-left: 10px;
+  margin-right: 10px;
 }

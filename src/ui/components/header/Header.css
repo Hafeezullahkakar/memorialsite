@@ -5,6 +5,9 @@
   justify-content: space-between;
   padding: 5px 10px;
   max-height: 80px;
+  position: fixed;
+  width: 100%;
+  z-index: 500;
 }
 
 .logo {
@@ -155,7 +158,6 @@ a:hover::after {
 a:hover:not(.login-button)::after {
   animation: underline 0.3s forwards;
 }
-
 
 @media (max-width: 768px) {
   .nav-links {

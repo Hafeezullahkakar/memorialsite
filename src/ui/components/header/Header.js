@@ -39,8 +39,16 @@ const Header = () => {
             <Link to="/contactus">CONTACT US</Link>
           </li>
           <li>
+            <Link to="/theme">Theme</Link>
+          </li>
+          <li>
+            <Link to="/profile">Profile</Link>
+          </li>
+          <li>
             <button className="login-button">
-              <Link style={{color:'#ffffff'}} to="/login">Login</Link>
+              <Link style={{ color: "#ffffff" }} to="/login">
+                Login
+              </Link>
             </button>
           </li>
         </ul>

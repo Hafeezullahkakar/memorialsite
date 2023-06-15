@@ -1,84 +1,151 @@
-.login-page {
+.memoLogin-page {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
   box-sizing: border-box;
-  padding-top: 80px;
-}
-input[type="radio"] {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  border: 2px solid #333;
-  outline: none;
-}
-input[type="radio"]:checked {
-  background-color: #5c5470;
-}
-.login-top {
-  background: #5c5470;
-  height: 30%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  color: #fff;
-  width: 100%;
-  height: 380px;
-  box-sizing: border-box;
-}
-.topcontent {
-  width: 40%;
-  padding: 30px;
-  padding-right: 65px;
-}
-.topcontent > h2 {
-  font-family: "Lora";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 45px;
-  text-align: right;
-  letter-spacing: 0.2px;
-  text-transform: uppercase;
-  padding-right: 10%;
-  padding-top: 30px;
-  font-family: "Lora";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 35px;
-  text-align: left;
-  text-transform: uppercase;
-  color: #ffffff;
+  /* background-color: red; */
 }
 
-.topcontent > p {
+.pfbottom {
+  height: 700px !important;
+  position: relative;
+}
+.memoLogin-pricing {
+  width: 100%;
+  position: absolute;
+  top: 4.5%;
+  bottom: 15%;
+  box-sizing: border-box;
+  height: 590px;
+  background: #ffffff;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  padding: 20px;
+}
+.pricing-card {
+  background: #5c5470;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #fff;
+  padding: 5px 0px;
+  width: 400px;
+  box-sizing: border-box;
+}
+.pricing-card > .life {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+.pricing-card > h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 12px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.pricing-card > .flexible {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+.pricing-card > .divider {
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.line {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: 0.7px;
-  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 9px;
+  letter-spacing: 0.4px;
   color: #ffffff;
+  text-align: start;
+  margin-left: 24%;
 }
-.Lbottom {
-  height: 350px !important;
-  position: relative;
+.line > img {
+  margin-right: 10px;
+}
+.get-started {
+  background: #5c5470;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  outline: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  border: 3px solid #ffffff;
+  border-radius: 25px;
+
+  color: #ffffff;
+  margin: 20px 2px;
+  padding: 7px 10px;
+  cursor: pointer;
+  height: 45px;
+  width: 200px;
+  margin-left: 25%;
 }
 
-.login-card {
-  width: 38%;
+.pricing-text {
+  width: 50%;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 12px;
+  text-align: center;
+
+  color: #5c5470;
+}
+.pricing-text > .pfont {
+  font-family: "Rastanty Cortez";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 5.542px;
+  text-transform: capitalize;
+  color: #5c5470;
+}
+.pricing-text > img {
+  margin-top: 20px;
+}
+
+.memologin-card {
+  width:48%;
   position: absolute;
-  top: 20%;
-  left: 5%;
-  bottom: 15%;
+  top: 6%;
+  right: 5%;
+  bottom: 3%;
   box-sizing: border-box;
   height: fit-content;
   background: #ffffff;
@@ -90,7 +157,7 @@ input[type="radio"]:checked {
   margin-bottom: 100px;
   padding: 20px 40px;
 }
-.login-card > p {
+.memologin-card > p {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -107,7 +174,6 @@ input[type="radio"]:checked {
   justify-content: space-between;
 }
 .loginsingle-input {
-  margin-bottom: 15px;
   width: 99%;
   display: flex;
   flex-direction: column;
@@ -240,7 +306,13 @@ input[type="radio"]:checked {
   line-height: 24px;
   color: #5c5470;
   margin: 20px 0px;
-  /* background-color: red; */
+  width: 100%
+  ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
 }
 
 .icons {

@@ -4,12 +4,14 @@
   justify-content: space-between;
   background-color: #5c5470;
   padding: 20px;
-  height: 59px;
+  height: 100px;
   color: white;
-  position: absolute;
+  position: relative;
   width: 100%;
   box-sizing: border-box;
-  /* bottom: 0; */
+  bottom: -5px;
+ 
+  /* position: fixed; */
 }
 
 .footer-left p {
