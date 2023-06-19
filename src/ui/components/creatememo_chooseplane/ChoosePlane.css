@@ -1,35 +1,149 @@
 .memoLogin-page {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    box-sizing: border-box;
-    /* background-color: red; */
-  }
- 
-  .pfbottom {
-    height: 700px !important;
-    position: relative;
-  }
-  .memoLogin-pricing {
-    width: 100%;
-    position: absolute;
-    top: 4.5%;
-    bottom: 15%;
-    box-sizing: border-box;
-    height: 590px;
-    background: #ffffff;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 100px;
-    padding: 20px;
-  }
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+  /* background-color: red; */
+}
+
+.pfbottom {
+  height: 700px !important;
+  position: relative;
+}
+.memoLogin-pricing {
+  width: 100%;
+  position: absolute;
+  top: 4.5%;
+  bottom: 15%;
+  box-sizing: border-box;
+  height: 590px;
+  background: #ffffff;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  padding: 20px;
+}
+.memopricing-card {
+  background: #5c5470;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #fff;
+  padding: 5px 0px;
+  /* width: 460px; */
+  box-sizing: border-box;
+  /* background-color: red !important; */
+  width: 500px !important;
+}
+.memopricing-card > .life {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+}
+.memopricing-card > h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 52px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.memopricing-card > .flexible {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+.memopricing-card > .divider {
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.memoline {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 9px;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  text-align: start;
+  margin-left: 28% !important;
+}
+.memoline > img {
+  margin-right: 10px;
+}
+.memoget-started {
+  background: #5c5470;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  outline: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  border: 3px solid #ffffff;
+  border-radius: 25px;
+
+  color: #ffffff;
+  margin: 20px 2px;
+  padding: 7px 10px;
+  cursor: pointer;
+  height: 45px;
+  width: 200px;
+  margin-left: 30%;
+}
+
+.pricing-text {
+  width: 50%;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 12px;
+  text-align: center;
+
+  color: #5c5470;
+}
+.pricing-text > .pfont {
+  font-family: "Rastanty Cortez";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 5.542px;
+  text-transform: capitalize;
+  color: #5c5470;
+}
+.pricing-text > img {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
   .memopricing-card {
     background: #5c5470;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
@@ -42,14 +156,14 @@
     /* width: 460px; */
     box-sizing: border-box;
     /* background-color: red !important; */
-    width: 500px !important;
+    width: 108% !important;
   }
   .memopricing-card > .life {
     font-family: "Lora";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 15px;
+    line-height: 40px;
     text-align: center;
     color: #ffffff;
   }
@@ -58,11 +172,11 @@
     font-style: normal;
     font-weight: 800;
     font-size: 50px;
-    line-height: 12px;
+    line-height: 45px;
     /* identical to box height */
-  
+
     text-align: center;
-  
+
     color: #ffffff;
   }
   .memopricing-card > .flexible {
@@ -70,16 +184,17 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 12px;
+    line-height: 22px;
     text-align: center;
     color: #ffffff;
+    margin-top: 10px;
   }
   .memopricing-card > .divider {
     height: 1px;
     width: 100%;
     background-color: #fff;
   }
-  
+
   .memoline {
     font-family: "Montserrat";
     font-style: normal;
@@ -89,7 +204,7 @@
     letter-spacing: 0.4px;
     color: #ffffff;
     text-align: start;
-    margin-left: 28% !important;
+    margin-left: 11% !important;
   }
   .memoline > img {
     margin-right: 10px;
@@ -106,16 +221,16 @@
     text-align: center;
     border: 3px solid #ffffff;
     border-radius: 25px;
-  
+
     color: #ffffff;
     margin: 20px 2px;
     padding: 7px 10px;
     cursor: pointer;
     height: 45px;
     width: 200px;
-    margin-left: 30%;
+    margin-left: 17%;
   }
-  
+
   .pricing-text {
     width: 50%;
     font-family: "Lora";
@@ -124,7 +239,7 @@
     font-size: 25px;
     line-height: 12px;
     text-align: center;
-  
+
     color: #5c5470;
   }
   .pricing-text > .pfont {
@@ -141,4 +256,4 @@
   .pricing-text > img {
     margin-top: 20px;
   }
-  
+}

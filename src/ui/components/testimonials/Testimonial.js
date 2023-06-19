@@ -23,7 +23,7 @@ const Testimonials = () => {
     display: 'flex',
     flexDirection: 'row',
     transition: 'transform 0.3s ease',
-    transform: `translateX(calc(-${currentIndex} * (100% / ${testimonialsData.length+2})))`,
+       // transform: `translateX(calc(-${currentIndex} * (100% / ${testimonialsData.length+2})))`,
     justifyContent:'space-between',
   };
   

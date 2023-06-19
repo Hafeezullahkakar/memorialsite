@@ -5,7 +5,7 @@ import { BiHide, BiShow } from "react-icons/bi";
 import { FcGoogle } from "react-icons/fc";
 import line from "../../../assets/icons/line.svg";
 import { Link } from "react-router-dom";
-function Login() {
+function Login({ loggedIn, setLoggedIn }) {
   const [showIcon, setShowIcon] = React.useState(<BiHide />);
 
   const [show, setShow] = React.useState(false);
@@ -76,7 +76,9 @@ function Login() {
           </div>
         </div>
 
-        <button className="login">Login</button>
+        <button className="login" onClick={() => setLoggedIn(true)}>
+          Login
+        </button>
 
         <div className="ordivire">
           <img src={line} /> or <img src={line} />{" "}

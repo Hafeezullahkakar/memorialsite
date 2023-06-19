@@ -7,23 +7,10 @@ import ChoosePlane from "../../components/creatememo_chooseplane/ChoosePlane";
 import MemoLogin from "../../components/creatememo_login/MemoLogin";
 import PrivacyOption from "../../components/privacyoption/PrivacyOption";
 
-const A = () => {
-  return <h1>Component A</h1>;
-};
-const B = () => {
-  return <h1>Component B</h1>;
-};
-const C = () => {
-  return <h1>Component C</h1>;
-};
-const D = () => {
-  return <h1>Component D</h1>;
-};
+
 
 function CreateMemorial() {
-  // const [options, setOptions] = React.useState([1, 2, 3, 4]);
-  // const [selectedOptions, setSelectedOptions] = React.useState(0);
-
+  
   const options = [
     {
       title: "About your loved one",

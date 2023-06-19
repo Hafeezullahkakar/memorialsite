@@ -7,6 +7,11 @@
     grid-template-columns: 1 1;
     gap: 10px;
     box-sizing: border-box;
+    @media (max-width:768px) {
+      display: flex;
+      flex-direction: column;
+      height: fit-content ;
+    }
   }
 
   .btn{
@@ -41,9 +46,15 @@ color: #5C5470;
   }
   .grid-row {
     display: flex;
+     
     align-items: center;
     justify-content: center;
     gap: 20px;
+
+    @media (max-width:768px) {
+      display: flex;
+       flex-direction: column ;
+    }
   }
   
   .full-width {
@@ -74,9 +85,13 @@ width: 646px;
 height: 58px;
 background: #FFFFFF;
 border-radius: 25px;
+@media  (max-width:768px) {
+   width: 300px;
+}
   }
 .input-container > input {
     border:none;
     outline:none;
     padding: 15px;
+
 }

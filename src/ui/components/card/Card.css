@@ -1,14 +1,22 @@
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
-    padding: 20px;
+    padding: 30px 20px;
     margin: 10px;
+    height: max-content;
     gap: 22px;
+    
     position: relative;
+    
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
     border-radius: 25px;
   }
-  
+
+  .action-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

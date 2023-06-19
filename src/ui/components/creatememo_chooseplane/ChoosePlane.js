@@ -12,7 +12,7 @@ function ChoosePlane() {
           <p>One Price, Endless Memories</p>
           <p>For Your</p>
           <p className="pfont">loved ones</p>
-          <img src={arrow} />
+          {/* <img src={arrow} /> */}
         </div>
 
         <div className="memopricing-card">
