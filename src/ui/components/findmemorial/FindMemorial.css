@@ -14,36 +14,38 @@
     }
   }
 
-  .btn{
+  .btn {
     display: flex;
-flex-direction: row;
-cursor: pointer;
-justify-content: flex-start;
-align-items: center;
-padding: 0px 0px 0px 10px;
-text-decoration: none;
-width: 323px;
-height: 85px;
-border:none;
-background: #FFFFFF;
-border-radius: 25px;
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center; /* Center items vertically */
+    padding: 0px 0px 0px 10px;
+    text-decoration: none;
+    width: 323px;
+    height: 85px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 25px;
   }
-
+  
   .btn > img {
     margin: 10px;
   }
-  .btn > p{
+  
+  .btn > p {
+    flex: 1; /* Take remaining space */
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 190.02%;
-/* or 30px */
-margin-left: 5px;
-text-align: center;
-
-color: #5C5470;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190.02%;
+    /* or 30px */
+    margin-left: 5px;
+    text-align: left; /* Align text to the left */
+    color: #5C5470;
+    margin-top: 20px;
   }
+  
   .grid-row {
     display: flex;
      
@@ -54,6 +56,7 @@ color: #5C5470;
     @media (max-width:768px) {
       display: flex;
        flex-direction: column ;
+       gap:10px
     }
   }
   
@@ -94,4 +97,7 @@ border-radius: 25px;
     outline:none;
     padding: 15px;
 
+}
+.input-container > input::placeholder {
+  font-size: 20px; /* Adjust the font size as desired */
 }

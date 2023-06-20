@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    
 
 /* Auto layout */
 
@@ -18,6 +19,10 @@ height: 129px;
 
 border: 1px dashed #7D768D;
 border-radius: 15px;
+@media (max-width: 768px) {
+  padding: 30px;
+  gap: 5px;
+}
 
   }
   
@@ -27,11 +32,16 @@ border-radius: 15px;
     align-items: center;
    cursor: pointer;
     gap:20px;
+    
   }
   
   .icon-item img {
     width: 50px;
     height: 50px;
+    @media (max-width: 768px) {
+      width: 30px;
+      height: 30px;
+    }
   }
   
   .icon-item span {

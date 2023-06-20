@@ -14,7 +14,7 @@ function PlaneFeature() {
           <p>One Price, Endless Memories</p>
           <p>For Your</p>
           <p className="pfont">loved ones</p>
-          <img src={arrow} />
+          <img src={arrow} alt="Arrow" />
         </div>
 
         <div className="pricing-card">
@@ -25,28 +25,28 @@ function PlaneFeature() {
           <p className="divider"></p>
 
           <p className="line">
-            <img src={tick} /> <spand>Never Expire</spand>
+            <img src={tick} alt="Tick" /> <span>Never Expire</span>
           </p>
           <p className="line">
-            <img src={tick} /> <spand>Unlimited Photos</spand>
+            <img src={tick} alt="Tick" /> <span>Unlimited Photos</span>
           </p>
           <p className="line">
-            <img src={tick} /> <spand>Video and Music Gallery</spand>
+            <img src={tick} alt="Tick" /> <span>Video and Music Gallery</span>
           </p>
           <p className="line">
-            <img src={tick} /> <spand>Social Media Integration</spand>
+            <img src={tick} alt="Tick" /> <span>Social Media Integration</span>
           </p>
           <p className="line">
-            <img src={tick} /> <spand>Custom Background Music</spand>
+            <img src={tick} alt="Tick" /> <span>Custom Background Music</span>
           </p>
           <p className="line">
-            <img src={tick} /> <spand>Advanced Privacy Controls</spand>
+            <img src={tick} alt="Tick" /> <span>Advanced Privacy Controls</span>
           </p>
           <p className="line">
-            <img src={tick} /> <spand>Additional Administrators</spand>
+            <img src={tick} alt="Tick" /> <span>Additional Administrators</span>
           </p>
           <p className="line">
-            <img src={tick} /> <spand>Custom Notifications</spand>
+            <img src={tick} alt="Tick" /> <span>Custom Notifications</span>
           </p>
 
           <button className="get-started">Get Started</button>

@@ -10,9 +10,9 @@
   width: 100%;
   box-sizing: border-box;
   bottom: -5px;
- 
+
   /* position: fixed; */
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
     height: 400px;
     flex-direction: column;
   }
@@ -25,14 +25,21 @@
   font-size: 12px;
   line-height: 15px;
   /* identical to box height */
-
   text-align: left;
-
   color: #ffffff;
-  @media (max-width:768px) {
-    font-size: 15px ;
+
+  @media (max-width: 768px) {
+    font-size: 15px;
     text-align: center;
     line-height: 30px;
+  }
+}
+
+.footer-left {
+  text-align: center;
+
+  @media (max-width: 768px) {
+    text-align: center;
   }
 }
 
@@ -45,35 +52,30 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  
 }
 
 .footer-links li {
   display: inline-block;
   margin-right: 10px;
-  @media (max-width:768px) {
+
+  @media (max-width: 768px) {
+    width: 80vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
   }
- 
 }
 
 .footer-links li a {
   color: white;
-
   text-decoration: none;
-
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
   /* identical to box height */
-
   text-align: center;
-
   color: #ffffff;
 }
 
@@ -84,24 +86,29 @@
 .footer-right {
   display: flex;
   align-items: center;
-  @media (max-width:768px) {
+
+  @media (max-width: 768px) {
     width: 100%;
     display: flex;
+    justify-content: center;
   }
 }
 
 .social-media-icons {
-
   list-style: none;
   padding: 0;
   margin: 0;
-  @media (max-width:768px) {
+
+  @media (max-width: 768px) {
     display: flex;
     flex-direction: row;
     justify-content: center;
-     width: 90vw;
-
+    width: 100%;
+    margin-right: 0px;
+    padding: 0;
+    margin-left: 30px;
   }
+  
 }
 
 .social-media-icons li {
@@ -110,7 +117,6 @@
 
 .social-media-icons li a {
   color: white;
-
   text-decoration: none;
   font-size: 18px;
 }

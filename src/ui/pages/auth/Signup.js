@@ -1,5 +1,5 @@
 import React from "react";
-import "./Login.css";
+import "./signup.css";
 import arrow from "../../../assets/icons/arraw.svg";
 import { BiHide, BiShow } from "react-icons/bi";
 import { FcGoogle } from "react-icons/fc";

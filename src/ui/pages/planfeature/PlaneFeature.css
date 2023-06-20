@@ -76,6 +76,7 @@
   margin-bottom: 40px;
 }
 .pricing-card > h2 {
+  background-color: #5c5470 !important;
   margin: 20px 0px;
   font-family: "Montserrat";
   font-style: normal;
@@ -252,6 +253,7 @@
     margin-bottom: 40px;
   }
   .pricing-card > h2 {
+    background-color: #5c5470 !important;
     margin: 20px 0px;
     font-family: "Montserrat";
     font-style: normal;

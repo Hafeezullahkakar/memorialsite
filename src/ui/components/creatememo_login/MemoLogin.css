@@ -11,7 +11,7 @@
 .mlbottom {
   height: 700px !important;
   position: relative;
-  background-color: red !important;
+ 
 
 }
 .memoLogin-pricing {
@@ -395,7 +395,7 @@
     color: #ffffff;
   }
   .pricing-card > h2 {
-    background-color: red !important;
+    
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 800;

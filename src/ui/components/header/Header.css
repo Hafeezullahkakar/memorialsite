@@ -14,6 +14,7 @@
   font-size: 18px;
   width: 209px;
   height: 67px;
+  
 }
 
 .nav-links {
@@ -38,7 +39,6 @@ a {
   font-weight: 600;
   font-size: 15px;
   min-width: max-content;
- 
   line-height: 20px;
   text-decoration: none;
   text-align: center;
@@ -133,7 +133,7 @@ a:hover::after {
     position: absolute;
     top: 100%;
     left: 0;
-    width: 100%;
+    width: 110%;
     background: white;
     padding: 20px;
   }
@@ -141,20 +141,18 @@ a:hover::after {
   .nav-links.open {
     display: flex;
   }
-  .nav-links.close{
-    display: none;
-  }
 
   .menu-toggle {
     display: flex;
     width: 100%;
     align-items: center;
-     margin-right: 30px;
     justify-content: flex-end;
   }
-  .header-container{
-    width: 90%;
+
+  .header-container {
+    width: 95%;
   }
+
   .menu-toggle img {
     width: 30px;
     height: 30px;
@@ -163,11 +161,14 @@ a:hover::after {
   ul {
     flex-direction: column;
     align-items: flex-start;
-    margin:0;
+    margin: 0;
     width: 100%;
   }
 
   li {
     margin: 10px 0;
+  }
+  img{
+
   }
 }

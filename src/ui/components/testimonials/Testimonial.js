@@ -1,11 +1,23 @@
-import React, { useState } from 'react';
-import './Testimonial.css';
+import React, { useState } from "react";
+import "./Testimonial.css";
 
 const testimonialsData = [
-  { author: 'Veronica Schade', text: 'Thank you - love the Father’s Day themes! So happy to see more options! Will send any ideas I come up with! This website has been my healing. I come to my dads site and meet with him in my mind. Going through our memories together, whenever I want. I tell everyone about your great website! Ty!!' },
-  { author: 'Cherry Fouts', text: "I'm glad to have found your website and thank you for offering a free plan, I really appreciate it. It's nice to have an online memorial like this where people who can't come to the funeral in person can leave their tribute online. We really appreciate you for building this website. From my family and I, thank you! God bless you more." },
-  { author: 'John Wick', text: 'Thank you - love the Father’s Day themes! So happy to see more options! Will send any ideas I come up with! This website has been my healing. I come to my dads site and meet with him in my mind. Going through our memories together, whenever I want. I tell everyone about your great website! Ty!!' },
-  { author: 'Daniel', text: 'Thank you - love the Father’s Day themes! So happy to see more options! Will send any ideas I come up with! This website has been my healing. I come to my dads site and meet with him in my mind. Going through our memories together, whenever I want. I tell everyone about your great website! Ty!!' },
+  {
+    author: "Veronica Schade",
+    text: "Thank you - love the Father’s Day themes! So happy to see more options! Will send any ideas I come up with! This website has been my healing. I come to my dads site and meet with him in my mind. Going through our memories together, whenever I want. I tell everyone about your great website! Ty!!",
+  },
+  {
+    author: "Cherry Fouts",
+    text: "I'm glad to have found your website and thank you for offering a free plan, I really appreciate it. It's nice to have an online memorial like this where people who can't come to the funeral in person can leave their tribute online. We really appreciate you for building this website. From my family and I, thank you! God bless you more.",
+  },
+  {
+    author: "John Wick",
+    text: "Thank you - love the Father’s Day themes! So happy to see more options! Will send any ideas I come up with! This website has been my healing. I come to my dads site and meet with him in my mind. Going through our memories together, whenever I want. I tell everyone about your great website! Ty!!",
+  },
+  {
+    author: "Daniel",
+    text: "Thank you - love the Father’s Day themes! So happy to see more options! Will send any ideas I come up with! This website has been my healing. I come to my dads site and meet with him in my mind. Going through our memories together, whenever I want. I tell everyone about your great website! Ty!!",
+  },
 ];
 
 const Testimonials = () => {
@@ -20,26 +32,30 @@ const Testimonials = () => {
     );
   };
   const testimonialContainerStyle = {
-    display: 'flex',
-    flexDirection: 'row',
-    transition: 'transform 0.3s ease',
-       // transform: `translateX(calc(-${currentIndex} * (100% / ${testimonialsData.length+2})))`,
-    justifyContent:'space-between',
+    display: "flex",
+    flexDirection: "row",
+    transition: "transform 0.3s ease",
+    // transform: `translateX(calc(-${currentIndex} * (100% / ${testimonialsData.length+2})))`,
+    justifyContent: "space-between",
   };
-  
-
 
   return (
     <div className="testimonials-container">
       <h2 className="testimonials-heading">Testimonials</h2>
       <div className="testimonials-slider">
-        <button className="arrow-button previous-button" onClick={handlePrevious}>
+        <button
+          className="arrow-button previous-button"
+          onClick={handlePrevious}
+        >
           &lt;
         </button>
-        <div className="testimonials-slide-container" style={testimonialContainerStyle}>
+        <div
+          className="testimonials-slide-container"
+          style={testimonialContainerStyle}
+        >
           {testimonialsData.map((item, idx) => (
             <div
-            className={`testimonial ${currentIndex == idx ? 'active' : ''}`}
+              className={`testimonial ${currentIndex == idx ? "active" : ""}`}
               key={idx}
             >
               <svg
@@ -56,7 +72,9 @@ const Testimonials = () => {
                 />
               </svg>
               <p className="testimonials-slide">{item.text}</p>
-              <p style={{color:'white'}} className="testimonials-author">{item.author}</p>
+              <p style={{ color: "white" }} className="testimonials-author">
+                {item.author}
+              </p>
             </div>
           ))}
         </div>
