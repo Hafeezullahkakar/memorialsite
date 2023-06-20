@@ -6,10 +6,9 @@
   gap: 10px;
   height: max-content;
   width: 80%;
-  @media (max-width:768px) {
-    width: fit-content; 
+  @media (max-width: 768px) {
+    width: fit-content;
   }
-  
 }
 .content {
   display: flex;
@@ -24,26 +23,28 @@
   font-weight: 500;
   font-size: 40px;
   line-height: 51px;
-  margin:50px;
+  margin: 50px;
   /* identical to box height, or 174% */
   margin-top: 30px;
   text-align: center;
   letter-spacing: 0.2px;
   text-transform: uppercase;
+  text-align: center !important;
+  margin-left: 25%;
 
   color: #5c5470;
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
     font-size: 25px;
   }
 }
 .feature-grid-row {
   display: flex;
   justify-content: space-between;
-  gap:120px;
+  gap: 120px;
 
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
     flex-direction: column;
-    gap:0;
+    gap: 0;
   }
 }
 
@@ -105,7 +106,7 @@
   height: 543px;
   margin-left: 10px;
 
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
     display: none;
   }
 }

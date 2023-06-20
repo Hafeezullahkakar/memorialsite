@@ -929,7 +929,7 @@ const Profile = () => {
                   </svg>
                 </a>
               </div>
-              <Button onClick={handleClickOpen} text="Managage" />
+              <Button onClick={handleClickOpen} text="Manage" />
             </div>
           </Card>
           <Card>

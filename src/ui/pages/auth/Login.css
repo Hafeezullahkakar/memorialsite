@@ -14,7 +14,7 @@ input[type="radio"] {
   -moz-appearance: none;
   width: 15px;
   height: 15px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   border: 2px solid #333;
   outline: none;
 }
@@ -42,7 +42,6 @@ input[type="radio"]:checked {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  line-height: 45px;
   text-align: right;
   letter-spacing: 0.2px;
   text-transform: uppercase;
@@ -53,9 +52,12 @@ input[type="radio"]:checked {
   font-weight: 500;
   font-size: 35px;
   line-height: 35px;
+  line-height: 65px !important;
   text-align: left;
   text-transform: uppercase;
   color: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .topcontent > p {
@@ -222,6 +224,8 @@ input[type="radio"]:checked {
 
   color: #5c5470;
   cursor: pointer;
+  margin-top: 20px;
+;
 }
 .remberme {
   font-family: "Montserrat";
@@ -488,7 +492,6 @@ input[type="radio"]:checked {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* background-color: red !important;  */
   }
   .rember > p {
     font-family: "Montserrat";
