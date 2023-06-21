@@ -31,6 +31,14 @@
   /* margin-bottom: 800px !important; */
   /* background-color: red; */
   padding: 20px;
+  @media (max-width: 768px) {
+    height: 1200px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+   
+    
+   }
 }
 .pricing-card {
   background: #5c5470;
@@ -372,6 +380,16 @@
     margin-bottom: 1000px !important;
     /* background-color: red !important; */
     /* padding: 20px; */
+    @media (max-width: 768px) {
+      height: 1200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      
+     
+      
+     }
+    
   }
   .pricing-card {
     background: #5c5470;
@@ -382,8 +400,9 @@
     flex-grow: 0;
     color: #fff;
     padding: 5px 0px;
-    width: 400px;
+    width: 330px !important;
     box-sizing: border-box;
+    top: 0%;
   }
   .pricing-card > .life {
     font-family: "Lora";
@@ -456,6 +475,9 @@
     height: 45px;
     width: 200px;
     margin-left: 25%;
+    @media (max-width:768px) {
+      margin-left: 70px;
+    }
   }
 
   .pricing-text {
@@ -487,9 +509,9 @@
   .memologin-card {
     width: 95%;
     position: absolute;
-    top: 35%;
+    top: 15%;
     right: 1.9% !important;
-    bottom: 3%;
+   
     box-sizing: border-box;
     height: fit-content;
     background: #ffffff;

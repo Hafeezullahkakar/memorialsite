@@ -12,7 +12,7 @@ import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
 
 import Dialog from "@mui/material/Dialog";
- 
+
 import Slide from "@mui/material/Slide";
 import UploadBox from "../../components/uploadbox/UploadBox";
 
@@ -625,110 +625,89 @@ const Profile = () => {
           </div>
           <div className="notification-section">
             <p className="youremail">Default Notification:</p>
-           <div className="privacy-checkbox-group-2">
-           <div className="checkbox-container">
-              <label className="custom-checkbox">
-                <input
-                  type="checkbox"
-                  checked={isChecked2}
-                  onChange={handleCheckboxChange2}
-                />
-                <span className="checkmark"></span>
-                Standard
-              </label>
-              {/* <p>This option enables access to the people you <br/> wish to invite while keeping the memorial <br/> hidden from public view.</p> */}
+            <div className="privacy-checkbox-group-2">
+              <div className="checkbox-container">
+                <label className="custom-checkbox">
+                  <input
+                    type="checkbox"
+                    checked={isChecked2}
+                    onChange={handleCheckboxChange2}
+                  />
+                  <span className="checkmark"></span>
+                  Standard
+                </label>
+                {/* <p>This option enables access to the people you <br/> wish to invite while keeping the memorial <br/> hidden from public view.</p> */}
+              </div>
+              <div
+                style={{ marginTop: "10px " }}
+                className="checkbox-container"
+              >
+                <label className="custom-checkbox">
+                  <input
+                    type="checkbox"
+                    checked={isChecked2}
+                    onChange={handleCheckboxChange2}
+                  />
+                  <span className="checkmark"></span>
+                  Custom
+                </label>
+                <p>
+                  Recommended for most memorials. This <br /> option allows easy
+                  access to the website and <br /> facilitates collaboration.{" "}
+                </p>
+              </div>
+
+              <div className="checkbox-container">
+                <label className="custom-checkbox">
+                  <input
+                    type="checkbox"
+                    checked={isChecked1}
+                    onChange={handleCheckboxChange1}
+                  />
+                  <span className="checkmark"></span>
+                  <a className="action-btn">
+                    <svg
+                      width="22"
+                      height="26"
+                      viewBox="0 0 22 26"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.22223 26C0.87593 26 0.585448 25.8752 0.350782 25.6256C0.116115 25.376 -0.000810585 25.0675 4.22914e-06 24.7V18.2C4.22914e-06 17.485 0.23956 16.8727 0.718671 16.3631C1.19778 15.8535 1.77304 15.5991 2.44445 15.6V10.4C2.44445 9.685 2.684 9.0727 3.16311 8.5631C3.64223 8.0535 4.21748 7.79913 4.88889 7.8H9.77778V5.915C9.41111 5.655 9.11574 5.34083 8.89167 4.9725C8.66759 4.60417 8.55556 4.16 8.55556 3.64C8.55556 3.315 8.61667 2.9952 8.73889 2.6806C8.86111 2.366 9.04445 2.07913 9.28889 1.82L11 0L12.7111 1.82C12.9556 2.08 13.1389 2.36687 13.2611 2.6806C13.3833 2.99433 13.4444 3.31413 13.4444 3.64C13.4444 4.16 13.3324 4.60417 13.1083 4.9725C12.8843 5.34083 12.5889 5.655 12.2222 5.915V7.8H17.1111C17.7833 7.8 18.359 8.05436 18.8381 8.5631C19.3172 9.07183 19.5564 9.68413 19.5556 10.4V15.6C20.2278 15.6 20.8034 15.8548 21.2826 16.3644C21.7617 16.874 22.0008 17.4859 22 18.2V24.7C22 25.0683 21.8827 25.3773 21.648 25.6269C21.4133 25.8765 21.1233 26.0009 20.7778 26H1.22223ZM4.88889 15.6H17.1111V10.4H4.88889V15.6ZM2.44445 23.4H19.5556V18.2H2.44445V23.4Z"
+                        fill="#5C5470"
+                      />
+                    </svg>
+                  </a>
+                  On Marina’s Birthday
+                </label>
+              </div>
+              <div className="checkbox-container">
+                <label className="custom-checkbox">
+                  <input
+                    type="checkbox"
+                    checked={isChecked2}
+                    onChange={handleCheckboxChange2}
+                  />
+                  <span className="checkmark"></span>
+                  <a className="action-btn">
+                    <svg
+                      width="25"
+                      height="21"
+                      viewBox="0 0 25 21"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M17.8879 0C15.7231 0 13.8017 0.83263 12.5 2.26375C11.1983 0.83263 9.27694 0 7.11207 0C5.22653 0.0022229 3.41887 0.733042 2.0856 2.03216C0.752319 3.33127 0.00228135 5.09261 0 6.92983C0 14.5254 11.4019 20.5942 11.8869 20.8494C12.0753 20.9482 12.286 21 12.5 21C12.714 21 12.9247 20.9482 13.1131 20.8494C13.5981 20.5942 25 14.5254 25 6.92983C24.9977 5.09261 24.2477 3.33127 22.9144 2.03216C21.5811 0.733042 19.7735 0.0022229 17.8879 0ZM17.2963 14.9474C15.7955 16.1883 14.1912 17.3052 12.5 18.2864C10.8088 17.3052 9.20445 16.1883 7.70366 14.9474C5.36853 12.9955 2.58621 10.0189 2.58621 6.92983C2.58621 5.76026 3.06304 4.63858 3.9118 3.81157C4.76056 2.98455 5.91174 2.51994 7.11207 2.51994C9.03017 2.51994 10.6358 3.50692 11.3028 5.09658C11.3999 5.32832 11.5656 5.52663 11.7788 5.66622C11.9921 5.80581 12.2431 5.88037 12.5 5.88037C12.7569 5.88037 13.0079 5.80581 13.2212 5.66622C13.4344 5.52663 13.6001 5.32832 13.6972 5.09658C14.3642 3.50692 15.9698 2.51994 17.8879 2.51994C19.0883 2.51994 20.2394 2.98455 21.0882 3.81157C21.937 4.63858 22.4138 5.76026 22.4138 6.92983C22.4138 10.0189 19.6315 12.9955 17.2963 14.9474Z"
+                        fill="#5C5470"
+                      />
+                    </svg>
+                  </a>
+                  On day of passing
+                </label>
+              </div>
             </div>
-            <div style={{ marginTop: "10px " }} className="checkbox-container">
-              <label className="custom-checkbox">
-                <input
-                  type="checkbox"
-                  checked={isChecked2}
-                  onChange={handleCheckboxChange2}
-                />
-                <span className="checkmark"></span>
-                Custom
-              </label>
-              <p>
-                Recommended for most memorials. This <br /> option allows easy
-                access to the website and <br /> facilitates collaboration.{" "}
-              </p>
-            </div>
-            <div className="checkbox-container">
-              <label className="custom-checkbox">
-                <input
-                  type="checkbox"
-                  checked={isChecked}
-                  onChange={handleCheckboxChange}
-                />
-                <span className="checkmark"></span>
-                <a className="action-btn">
-                  <svg
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M22 0.00017218C18.1829 -0.0115166 14.2753 0.570915 10.7981 2.05909C11.0382 2.66025 11.24 3.35948 11.4065 4.13806C10.4703 3.43979 9.29929 3.21674 8.26372 3.35897C6.13143 4.65716 4.24411 6.38642 2.75353 8.63693C3.91577 8.99107 5.13264 9.67842 6.11413 10.6388C4.64385 10.3172 2.9352 10.3697 1.53823 10.7758C0.904218 12.0857 0.384523 13.5373 0 15.1448C5.93785 13.7445 6.02145 15.3053 2.34128 21.5571C3.11988 22.1331 4.28729 22.1859 5.19723 21.4858C5.46249 11.2323 9.95729 13.8947 11.0072 15.1876C11.6664 13.3343 12.6113 11.4189 13.9093 9.41314C13.1116 8.74345 12.1004 8.27905 10.9654 7.93492C12.1355 7.69493 13.314 7.43595 14.3851 7.42262C14.6841 7.41887 14.9746 7.43504 15.2544 7.4754C16.065 6.37925 16.9802 5.2558 18.0109 4.09797C17.4325 3.80986 16.8356 3.57499 16.252 3.41459C17.0424 3.15159 17.8793 3.03379 18.6899 3.04214C18.7826 3.04306 18.8746 3.04648 18.9667 3.05068C19.8926 2.0595 20.901 1.04276 22 3.519e-05V0.00017218ZM18.9667 1.15727C12.9264 4.14313 8.51165 8.59639 5.96701 14.2273C7.23126 7.41855 12.5231 2.85992 18.9667 1.15727Z"
-                      fill="#5C5470"
-                    />
-                  </svg>
-                </a>
-                On new posts from other guests
-              </label>
-            </div>
-            <div className="checkbox-container">
-              <label className="custom-checkbox">
-                <input
-                  type="checkbox"
-                  checked={isChecked1}
-                  onChange={handleCheckboxChange1}
-                />
-                <span className="checkmark"></span>
-                <a className="action-btn">
-                  <svg
-                    width="22"
-                    height="26"
-                    viewBox="0 0 22 26"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M1.22223 26C0.87593 26 0.585448 25.8752 0.350782 25.6256C0.116115 25.376 -0.000810585 25.0675 4.22914e-06 24.7V18.2C4.22914e-06 17.485 0.23956 16.8727 0.718671 16.3631C1.19778 15.8535 1.77304 15.5991 2.44445 15.6V10.4C2.44445 9.685 2.684 9.0727 3.16311 8.5631C3.64223 8.0535 4.21748 7.79913 4.88889 7.8H9.77778V5.915C9.41111 5.655 9.11574 5.34083 8.89167 4.9725C8.66759 4.60417 8.55556 4.16 8.55556 3.64C8.55556 3.315 8.61667 2.9952 8.73889 2.6806C8.86111 2.366 9.04445 2.07913 9.28889 1.82L11 0L12.7111 1.82C12.9556 2.08 13.1389 2.36687 13.2611 2.6806C13.3833 2.99433 13.4444 3.31413 13.4444 3.64C13.4444 4.16 13.3324 4.60417 13.1083 4.9725C12.8843 5.34083 12.5889 5.655 12.2222 5.915V7.8H17.1111C17.7833 7.8 18.359 8.05436 18.8381 8.5631C19.3172 9.07183 19.5564 9.68413 19.5556 10.4V15.6C20.2278 15.6 20.8034 15.8548 21.2826 16.3644C21.7617 16.874 22.0008 17.4859 22 18.2V24.7C22 25.0683 21.8827 25.3773 21.648 25.6269C21.4133 25.8765 21.1233 26.0009 20.7778 26H1.22223ZM4.88889 15.6H17.1111V10.4H4.88889V15.6ZM2.44445 23.4H19.5556V18.2H2.44445V23.4Z"
-                      fill="#5C5470"
-                    />
-                  </svg>
-                </a>
-                On Marina’s Birthday
-              </label>
-            </div>
-            <div className="checkbox-container">
-              <label className="custom-checkbox">
-                <input
-                  type="checkbox"
-                  checked={isChecked2}
-                  onChange={handleCheckboxChange2}
-                />
-                <span className="checkmark"></span>
-                <a className="action-btn">
-                  <svg
-                    width="25"
-                    height="21"
-                    viewBox="0 0 25 21"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M17.8879 0C15.7231 0 13.8017 0.83263 12.5 2.26375C11.1983 0.83263 9.27694 0 7.11207 0C5.22653 0.0022229 3.41887 0.733042 2.0856 2.03216C0.752319 3.33127 0.00228135 5.09261 0 6.92983C0 14.5254 11.4019 20.5942 11.8869 20.8494C12.0753 20.9482 12.286 21 12.5 21C12.714 21 12.9247 20.9482 13.1131 20.8494C13.5981 20.5942 25 14.5254 25 6.92983C24.9977 5.09261 24.2477 3.33127 22.9144 2.03216C21.5811 0.733042 19.7735 0.0022229 17.8879 0ZM17.2963 14.9474C15.7955 16.1883 14.1912 17.3052 12.5 18.2864C10.8088 17.3052 9.20445 16.1883 7.70366 14.9474C5.36853 12.9955 2.58621 10.0189 2.58621 6.92983C2.58621 5.76026 3.06304 4.63858 3.9118 3.81157C4.76056 2.98455 5.91174 2.51994 7.11207 2.51994C9.03017 2.51994 10.6358 3.50692 11.3028 5.09658C11.3999 5.32832 11.5656 5.52663 11.7788 5.66622C11.9921 5.80581 12.2431 5.88037 12.5 5.88037C12.7569 5.88037 13.0079 5.80581 13.2212 5.66622C13.4344 5.52663 13.6001 5.32832 13.6972 5.09658C14.3642 3.50692 15.9698 2.51994 17.8879 2.51994C19.0883 2.51994 20.2394 2.98455 21.0882 3.81157C21.937 4.63858 22.4138 5.76026 22.4138 6.92983C22.4138 10.0189 19.6315 12.9955 17.2963 14.9474Z"
-                      fill="#5C5470"
-                    />
-                  </svg>
-                </a>
-                On day of passing
-              </label>
-            </div>
-           </div>
           </div>
         </div>
         <div className="dialog-action">
@@ -741,52 +720,63 @@ const Profile = () => {
               />
               <span className="checkmark"></span>
               Update for all registered guests
-
             </label>
           </div>
         </div>
       </Card>
     ),
-    stories:(
+    stories: (
       <div className="story-container">
-          <Card Width="80%">
-            <div className="story-header">
-              <p>Share a special moment from Marina's life</p>
-              <Button text="Write A Story"/>
-            </div>
-          </Card>
-          <Card Width="80%">
-            <div className="story-img">
-              <img src={story} />
-            </div>
-            <div className="story-title">
-              <p className="title1">Home is where the heart is</p>
-              <p className="story-date">24 May by Michael Bruns</p>
-            </div>
-            <p className="story-para">Marina visited us in Oregon the summer after her first grandchild was born. At that time she owned a condo in New Hampshire. What started as a two week visit never ended because while she was here she rented an apartment in Eugene. This was in 1995.</p>
-            <div className="story-btn">
-            <Button text="Share"/>
-            </div>
-          </Card>
-          <Card Width="80%">
-            <div className="story-img">
-              <img src={story} />
-            </div>
-            <div className="story-title">
-              <p className="title1">Home is where the heart is</p>
-              <p className="story-date">24 May by Michael Bruns</p>
-            </div>
-            <p className="story-para">Marina visited us in Oregon the summer after her first grandchild was born. At that time she owned a condo in New Hampshire. What started as a two week visit never ended because while she was here she rented an apartment in Eugene. This was in 1995.</p>
-            <div className="story-btn">
-            <Button text="Share"/>
-            </div>
-          </Card>
+        <Card Width="80%">
+          <div className="story-header">
+            <p>Share a special moment from Marina's life</p>
+            <Button text="Write A Story" />
+          </div>
+        </Card>
+        <Card Width="80%">
+          <div className="story-img">
+            <img src={story} />
+          </div>
+          <div className="story-title">
+            <p className="title1">Home is where the heart is</p>
+            <p className="story-date">24 May by Michael Bruns</p>
+          </div>
+          <p className="story-para">
+            Marina visited us in Oregon the summer after her first grandchild
+            was born. At that time she owned a condo in New Hampshire. What
+            started as a two week visit never ended because while she was here
+            she rented an apartment in Eugene. This was in 1995.
+          </p>
+          <div className="story-btn">
+            <Button text="Share" />
+          </div>
+        </Card>
+        <Card Width="80%">
+          <div className="story-img">
+            <img src={story} />
+          </div>
+          <div className="story-title">
+            <p className="title1">Home is where the heart is</p>
+            <p className="story-date">24 May by Michael Bruns</p>
+          </div>
+          <p className="story-para">
+            Marina visited us in Oregon the summer after her first grandchild
+            was born. At that time she owned a condo in New Hampshire. What
+            started as a two week visit never ended because while she was here
+            she rented an apartment in Eugene. This was in 1995.
+          </p>
+          <div className="story-btn">
+            <Button text="Share" />
+          </div>
+        </Card>
       </div>
     ),
-    manageVisitor:(
+    manageVisitor: (
       <Card Width="90%">
-        <p className="manage-title1">Use this section to view and manage invited guests:</p> 
-        <p className="manage-title2">Manage visitors</p> 
+        <p className="manage-title1">
+          Use this section to view and manage invited guests:
+        </p>
+        <p className="manage-title2">Manage visitors</p>
         <div className="manage-btn-section">
           <p className="pending-btn">Pending (1)</p>
           <p className="visited-btn">Visited (1)</p>
@@ -816,29 +806,54 @@ const Profile = () => {
         <div className="tab-links">
           <ul className="ul-row">
             <li>
-              <a onClick={()=>{
-                setCurrentTab("about")
-              }} className="tag">About</a>
+              <a
+                onClick={() => {
+                  setCurrentTab("about");
+                }}
+                className="tag"
+              >
+                About
+              </a>
             </li>
             <li>
-              <a onClick={()=>{
-                setCurrentTab("life")
-              }}  className="tag">Life</a>
+              <a
+                onClick={() => {
+                  setCurrentTab("life");
+                }}
+                className="tag"
+              >
+                Life
+              </a>
             </li>
             <li>
-              <a onClick={()=>{
-                setCurrentTab("gallery")
-              }}  className="tag">Gallery</a>
+              <a
+                onClick={() => {
+                  setCurrentTab("gallery");
+                }}
+                className="tag"
+              >
+                Gallery
+              </a>
             </li>
             <li>
-              <a onClick={()=>{
-                setCurrentTab("stories")
-              }} className="tag">Stories</a>
+              <a
+                onClick={() => {
+                  setCurrentTab("stories");
+                }}
+                className="tag"
+              >
+                Stories
+              </a>
             </li>
             <li>
-              <a onClick={()=>{
-                setCurrentTab("privacy")
-              }} className="tag">Admin</a>
+              <a
+                onClick={() => {
+                  setCurrentTab("privacy");
+                }}
+                className="tag"
+              >
+                Admin
+              </a>
             </li>
           </ul>
         </div>
@@ -1099,4 +1114,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;  
+export default Profile;

@@ -26,10 +26,16 @@
     border: none;
     background: #FFFFFF;
     border-radius: 25px;
+    @media (max-width:768px) {
+      padding: 10px;
+    }
   }
   
   .btn > img {
     margin: 10px;
+    @media (max-width:768px) {
+      margin:2vw;
+    }
   }
   
   .btn > p {
@@ -89,7 +95,7 @@ height: 58px;
 background: #FFFFFF;
 border-radius: 25px;
 @media  (max-width:768px) {
-   width: 300px;
+   width: 70vw;
 }
   }
 .input-container > input {
@@ -100,4 +106,13 @@ border-radius: 25px;
 }
 .input-container > input::placeholder {
   font-size: 20px; /* Adjust the font size as desired */
+  @media (max-width:768px) {
+    font-size: 5vw;
+  }
+}
+
+@media (max-width:768px) {
+  .btn{
+    width: 50vw;
+  }
 }

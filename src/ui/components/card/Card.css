@@ -18,6 +18,7 @@
 @media (max-width: 768px) {
   .card {
     padding: 20px;
+    margin-left: 0px;
   }
 }
 
@@ -28,6 +29,6 @@
   .story-img > img{
     height: 250px;
     width: 250px;
-    margin-left: 30px;
+    margin-left: 10px;
   }
 }

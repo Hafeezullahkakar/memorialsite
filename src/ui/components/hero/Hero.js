@@ -17,7 +17,7 @@ const Hero = () => {
         legacies that continue to inspire us.
       </p>
       <button className="mBtn">
-        <Link to="/creatememorial">Create a Memorial</Link>
+        <Link to="/creatememorial" className="hero-create">Create a Memorial</Link>
       </button>
     </div>
   );

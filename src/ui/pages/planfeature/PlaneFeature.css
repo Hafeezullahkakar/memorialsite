@@ -225,6 +225,12 @@
     margin-bottom: 100px;
     padding: 20px;
     padding-top: 30px;
+    @media (max-width: 768px) {
+     height: 1000px;
+     display: flex;
+     justify-content: flex-start;
+     
+    }
   }
   .pricing-card {
     background: #5c5470;

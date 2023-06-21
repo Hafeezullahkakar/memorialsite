@@ -14,7 +14,7 @@ const FindMemorial = () => {
           <img src={Vector} />
           <p>
             <svg
-              width="211"
+              width="200"
               height="13"
               viewBox="0 0 211 13"
               fill="none"
@@ -31,7 +31,7 @@ const FindMemorial = () => {
           <img src={Vector1} />
           <p>
             <svg
-              width="246"
+              width="210"
               height="16"
               viewBox="0 0 246 16"
               fill="none"

@@ -6,7 +6,7 @@ import menuIcon from "../../../assets/menu.svg";
 import closeIcon from "../../../assets/close.png";
 
 const Header = ({ loggedIn }) => {
-  const [menuOpen, setMenuOpen] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const handleMenuToggle = () => {
     setMenuOpen(!menuOpen);
@@ -14,9 +14,9 @@ const Header = ({ loggedIn }) => {
 
   return (
     <header className="header-container">
-      <div className="logo">
+      <div >
         <Link to="/">
-          <img src={logoSvg} alt="Logo" />
+          <img src={logoSvg} alt="Logo" className="header-logo" />
         </Link>
       </div>
       <div className="menu-toggle" onClick={handleMenuToggle}>

@@ -45,7 +45,7 @@
 
 .feature-grid-row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
   
   @media (min-width: 768px) {
@@ -63,8 +63,10 @@
   height: auto;
   margin-bottom: 80px;
   
-  @media (min-width: 768px) {
+  @media (max-width: 425px) {
     margin-bottom: 0; /* Remove margin bottom on larger screens */
+  padding:4vw;
+  width:70vw
   }
 }
 

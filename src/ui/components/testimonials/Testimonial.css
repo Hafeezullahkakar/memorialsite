@@ -1,5 +1,9 @@
 .testimonials-container {
   background-color: #5C5470;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 20px;
   height: 466px;
   width: 100%;
@@ -26,6 +30,7 @@
     margin-top: 10px;
     font-size: 25px;
   }
+
 }
 
 .testimonials-slider {
@@ -48,6 +53,10 @@
   font-size: 94px;
   cursor: pointer;
   opacity: 0.2;
+  @media (max-width:768px) {
+    font-size:10vw;
+    
+  }
 }
 
 .arrow-button:hover{
@@ -82,6 +91,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -92,7 +102,11 @@
  @media (max-width:768px) {
   width: fit-content;
   height: 90%;
+  font-size:3vw;
  }
+ @media (max-width:425px) {
+    font-size:5vw;
+}
   
 
 }

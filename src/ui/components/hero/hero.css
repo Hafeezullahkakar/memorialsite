@@ -13,7 +13,15 @@
     height: fit-content;
   }
 }
-
+.hero-create{
+  font-size: 1.5vw;
+  @media (max-width:768px) {
+    font-size: 3vw;
+  }
+  @media (max-width:425px) {
+    font-size: 5vw;
+  }
+}
 h1 {
   font-size: 36px;
   margin-bottom: 10px;
@@ -37,7 +45,7 @@ p {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  width: 279px;
+  width: 20vw;
   height: 52px;
   border: none;
   background: #ffffff;
