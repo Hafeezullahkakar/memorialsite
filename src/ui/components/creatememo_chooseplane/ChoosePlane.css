@@ -6,14 +6,14 @@
   flex-direction: column;
   position: relative;
   box-sizing: border-box;
-  /* background-color: red; */
+  height: fit-content !important;
 }
 
-.pfbottom {
-  height: 700px !important;
+.pfbottom1 {
+  height: 900px !important;
   position: relative;
 }
-.memoLogin-pricing {
+.memoLogin-pricing1 {
   width: 100%;
   position: absolute;
   gap: 0;
@@ -30,7 +30,7 @@
   margin-bottom: 100px;
   padding: 20px;
 }
-.memopricing-card {
+.memopricing-card1 {
   background: #5c5470;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
@@ -43,10 +43,8 @@
   box-sizing: border-box;
   /* background-color: red !important; */
   width: 500px !important;
-  
-  
 }
-.memopricing-card > .life {
+.memopricing-card1 > .life {
   font-family: "Lora";
   font-style: normal;
   font-weight: 700;
@@ -55,7 +53,7 @@
   text-align: center;
   color: #ffffff;
 }
-.memopricing-card > h2 {
+.memopricing-card1 > h2 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 800;
@@ -68,7 +66,7 @@
   color: #ffffff;
   margin-bottom: 20px;
 }
-.memopricing-card > .flexible {
+.memopricing-card1 > .flexible {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -77,7 +75,7 @@
   text-align: center;
   color: #ffffff;
 }
-.memopricing-card > .divider {
+.memopricing-card1 > .divider {
   height: 1px;
   width: 100%;
   background-color: #fff;
@@ -145,8 +143,23 @@
   margin-top: 20px;
 }
 
+@media screen and (max-width: 500px) {
+  .memoLinesDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: left !important;
+    margin-left: 10% !important;
+
+  }
+}
 @media screen and (max-width: 768px) {
-  .memopricing-card {
+  .memoLogin-pricing1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .memopricing-card1 {
     background: #5c5470;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
     border-radius: 25px;
@@ -157,10 +170,21 @@
     padding: 5px 0px;
     /* width: 460px; */
     box-sizing: border-box;
-    /* background-color: red !important; */
     width: 95% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-  .memopricing-card > .life {
+  .memoLinesDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: left !important;
+    margin-left: 18%;
+
+  }
+  .memopricing-card1 > .life {
     font-family: "Lora";
     font-style: normal;
     font-weight: 700;
@@ -169,7 +193,7 @@
     text-align: center;
     color: #ffffff;
   }
-  .memopricing-card > h2 {
+  .memopricing-card1 > h2 {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 800;
@@ -181,7 +205,7 @@
 
     color: #ffffff;
   }
-  .memopricing-card > .flexible {
+  .memopricing-card1 > .flexible {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
@@ -191,7 +215,7 @@
     color: #ffffff;
     margin-top: 10px;
   }
-  .memopricing-card > .divider {
+  .memopricing-card1 > .divider {
     height: 1px;
     width: 100%;
     background-color: #fff;

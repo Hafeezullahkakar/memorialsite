@@ -78,6 +78,7 @@ input[type="radio"]:checked {
 .login-card {
   width: 38%;
   position: absolute;
+  height: fit-content !important;
   top: 20%;
   left: 5%;
   bottom: 15%;
@@ -225,7 +226,6 @@ input[type="radio"]:checked {
   color: #5c5470;
   cursor: pointer;
   margin-top: 20px;
-;
 }
 .remberme {
   font-family: "Montserrat";
@@ -262,7 +262,6 @@ input[type="radio"]:checked {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-
   color: #000000;
   cursor: pointer;
   height: 45px;
@@ -271,6 +270,65 @@ input[type="radio"]:checked {
   align-items: center;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1300px) {
+  .login-top {
+    background: #5c5470;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+    width: 100%;
+    height: 480px !important;
+    box-sizing: border-box;
+  }
+  .topcontent {
+    width: 95%;
+    padding: 10px !important;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    /* padding-right: 65px; */
+  }
+  .topcontent > h2 {
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px !important;
+    line-height: 15px !important;
+    text-align: right;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    padding-right: 5% !important;
+    padding-top: 0px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin-bottom: -10px !important;
+  }
+
+  .topcontent > p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .Lbottom {
+    height: 780px !important;
+    position: relative;
+  }
+}
 @media screen and (max-width: 768px) {
   .login-page {
     width: 100%;
@@ -281,7 +339,7 @@ input[type="radio"]:checked {
     position: relative;
     box-sizing: border-box;
     padding-top: 80px;
-    margin-bottom: 300px;
+    margin-bottom: 450px !important;
   }
   input[type="radio"] {
     appearance: none;
@@ -298,13 +356,12 @@ input[type="radio"]:checked {
   }
   .login-top {
     background: #5c5470;
-  
     display: flex;
     justify-content: center;
     align-items: flex-start;
     color: #fff;
     width: 100%;
-    height: 480px;
+    height: 380px !important;
     box-sizing: border-box;
   }
   .topcontent {
@@ -350,7 +407,7 @@ input[type="radio"]:checked {
     color: #ffffff;
   }
   .Lbottom {
-    height: 350px !important;
+    height: 780px !important;
     position: relative;
   }
 
@@ -370,6 +427,7 @@ input[type="radio"]:checked {
     justify-content: space-between;
     margin-bottom: 100px;
     padding: 25px 20px;
+    /* background-color: red !important; */
   }
   .login-card > p {
     font-family: "Montserrat";

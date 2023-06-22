@@ -6,7 +6,7 @@
   position: relative;
   margin-top: 30px;
   padding-bottom: 100px;
-
+  margin-bottom: 100px;
 }
 .privacy > p {
   font-family: "Lora";
@@ -28,7 +28,6 @@
 .privcy {
   height: 50px !important;
   background-color: red !important;
-
 }
 
 .pr-options {
@@ -143,10 +142,10 @@
     justify-content: flex-start;
     position: relative;
     margin-top: 30px;
-    
   }
-  .Seperator > .memoLogin-page{
-    height: 700px;
+  .Seperator > .memoLogin-page {
+    height: 650px !important;
+    /* background-color:  rebeccapurple !important; */
   }
   .privacy > p {
     font-family: "Lora";
@@ -167,7 +166,7 @@
 
   .privcy {
     height: 50px !important;
-    background-color: red !important;
+    /* background-color: red !important; */
   }
 
   .pr-options {
@@ -179,7 +178,7 @@
     justify-content: flex-start;
     padding: 0 !important;
   }
-  
+
   .singleOPt {
     /* background-color: red !important; */
     margin: 5px 10px;
@@ -225,7 +224,6 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: column !important;
-    
   }
   .trms > label {
     margin-left: 10px;
@@ -254,7 +252,7 @@
     /* gap: 10px; */
 
     width: 280px;
-    height: 50px;
+    height: 45px;
     cursor: pointer;
     margin-top: 10px;
 
@@ -271,10 +269,23 @@
     letter-spacing: 0.4px;
 
     color: #ffffff;
+    margin-top: 20px;
   }
 
   .arro {
     font-weight: bold;
     font-size: 1.7rem;
   }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .contnu{
+    width: 80% !important;
+  }
+  .contnu>button{
+    height: fit-content;
+    padding: 5px;
+  }
+ 
+
 }

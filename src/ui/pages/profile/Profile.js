@@ -710,9 +710,9 @@ const Profile = () => {
             </div>
           </div>
         </div>
-        <div className="dialog-action">
+        <div className="dialog-action chk">
           <div className="checkbox-container">
-            <label className="custom-checkbox">
+            <label className="custom-checkbox chkk">
               <input
                 type="checkbox"
                 checked={isChecked2}

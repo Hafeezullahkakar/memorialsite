@@ -11,6 +11,7 @@ function PrivacyOption() {
             private:
           </p>
 
+
           <div className="pr-options">
             <div className="singleOPt">
               <input
@@ -59,7 +60,7 @@ function PrivacyOption() {
             </button>
           </div>
         </div>
-        <div className="pfbottom privcy"></div>
+        {/* <div className="pfbottom1sdprivcy1"></div> */}
       </div>
     </div>
   );

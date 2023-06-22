@@ -3,7 +3,6 @@ import "./Footer.css";
 import { useLocation } from "react-router-dom";
 const Footer = () => {
   const location = useLocation();
-  console.log("LOCA", location);
   return (
     <>
       {location.pathname.includes("theme") == false ? (

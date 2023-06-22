@@ -78,7 +78,7 @@ function MemoLogin() {
 
           <button className="login">Login</button>
 
-          <div className="ordivire">
+          <div className="ordivire1">
             <img src={line} /> or <img src={line} />{" "}
           </div>
           <button className="goolge">

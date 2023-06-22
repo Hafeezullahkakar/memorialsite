@@ -9,16 +9,24 @@
   color: white;
   text-align: center;
   padding-top: 80px;
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
     height: fit-content;
   }
 }
-.hero-create{
+.hero-create {
   font-size: 1.5vw;
-  @media (max-width:768px) {
+  color: #5c5470;
+  text-align: center;
+  font-size: 1rem;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.25rem;
+  letter-spacing: 0.025rem;
+  text-transform: capitalize;
+  @media (max-width: 768px) {
     font-size: 3vw;
   }
-  @media (max-width:425px) {
+  @media (max-width: 425px) {
     font-size: 5vw;
   }
 }
@@ -104,12 +112,12 @@ p {
     line-height: 50px !important;
     padding-top: 30px !important;
   }
-  
+
   p {
     font-size: 12px;
     margin-bottom: 20px;
   }
-  
+
   .mBtn {
     display: flex;
     flex-direction: row;
@@ -131,23 +139,23 @@ p {
     margin-bottom: 40px !important;
     margin-top: 25px !important;
   }
-  
+
   .main-text {
     width: 80%;
-  
+
     font-family: "Lora";
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 82px;
     /* or 150% */
-  
+
     text-align: center;
     text-transform: uppercase;
-  
+
     color: #ffffff;
   }
-  
+
   .second-para {
     font-family: "Rastanty Cortez";
     font-style: normal;
@@ -159,10 +167,10 @@ p {
     text-align: center;
     letter-spacing: 5.542px;
     text-transform: capitalize;
-  
+
     color: #ffffff;
   }
-  
+
   .third-para {
     font-family: "Lora";
     font-style: normal;
@@ -173,7 +181,7 @@ p {
     width: 60%;
     text-align: center;
     text-align: center;
-  
+
     color: #ffffff;
   }
 }

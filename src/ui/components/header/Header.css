@@ -11,14 +11,15 @@
 }
 
 .header-logo {
-  @media (max-width:1020px) {
-    width:15vw
+  @media (max-width: 1020px) {
+    width: 15vw;
   }
 }
 
 .nav-links {
   display: flex;
   align-items: center;
+  padding-right: 20px !important;
 }
 
 ul {
@@ -45,10 +46,9 @@ a {
   letter-spacing: 0.4px;
   text-transform: uppercase;
   color: #5c5470;
-  @media (max-width:768px) {
-   font-size: 2vw;
+  @media (max-width: 768px) {
+    font-size: 2vw;
   }
-
 }
 
 .menu-toggle {
@@ -86,6 +86,8 @@ ul {
   background: #5c5470;
   border-radius: 20px;
   cursor: pointer;
+  margin-right: 20px;
+  
 }
 
 .login-button:hover {
@@ -99,22 +101,23 @@ a {
   transition: color 0.3s ease;
 }
 
-a::after {
+.Lnk>a::after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -2px;
+  bottom: -15px;
   width: 100%;
   height: 2px;
   background-color: transparent;
   transition: background-color 0.3s ease;
+  /* background-color: red !important; */
 }
 
-a:hover {
+.Lnk>a:hover {
   color: #5c5470;
 }
 
-a:hover::after {
+.Lnk>a:hover::after {
   background-color: #5c5470;
 }
 
@@ -127,13 +130,13 @@ a:hover::after {
   }
 }
 
-a:hover::after {
+.Lnk>a:hover::after {
   animation: underline 0.3s forwards;
 }
 
 
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .nav-links {
     display: none;
     flex-direction: column;
@@ -177,14 +180,18 @@ a:hover::after {
     margin: 10px 0;
     padding: 20px;
   }
-  img{
-
+  img {
   }
-
+  .login-button > button{
+    height: 50px !important;
+    /* width: fit-content; */
+    padding: 5px;
+   
+  }
 }
 
-@media (max-width:425px) {
-  a{
+@media (max-width: 425px) {
+  a {
     font-size: 5vw;
   }
 }

@@ -13,7 +13,10 @@ const Features = () => {
       <p className="features_heading">Remember Forever, Share the Missed</p>
       <div className="content">
         <div className="features-grid-left">
+         
+         
           <div className="feature-grid-row">
+
             <div className="feature-card">
               <img src={img1} />
 
@@ -24,6 +27,8 @@ const Features = () => {
                 </p>
               </div>
             </div>
+
+
             <div className="feature-card">
               <img src={img2} />
 
@@ -35,6 +40,8 @@ const Features = () => {
               </div>
             </div>
           </div>
+
+          
           <div className="feature-grid-row">
             <div className="feature-card">
               <img src={img3} />

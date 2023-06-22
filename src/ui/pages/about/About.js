@@ -7,7 +7,7 @@ function About() {
     <div className="aboutpage">
       <div className="ab-top">
         <img src={logo} />
-        <div className="content">
+        <div className="content1">
           <p className="tp">
             Losing a loved one is incredibly painful, and very personal.
           </p>
@@ -20,6 +20,7 @@ function About() {
           <button className="memobtn">Create A Memorial</button>
         </div>
       </div>
+
       <div className="triagnle"></div>
       <div className="ab-bottom">
         <h3>Welcome to our memorial website </h3>
