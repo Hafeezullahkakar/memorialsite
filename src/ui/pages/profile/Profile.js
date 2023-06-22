@@ -1042,8 +1042,8 @@ const Profile = () => {
                   On new posts from other guests
                 </label>
               </div>
-              <div className="checkbox-container">
-                <label className="custom-checkbox">
+              <div className="checkbox-container special">
+                <label className="custom-checkbox special">
                   <input
                     type="checkbox"
                     checked={isChecked1}
@@ -1067,8 +1067,8 @@ const Profile = () => {
                   On Marina’s Birthday
                 </label>
               </div>
-              <div className="checkbox-container">
-                <label className="custom-checkbox">
+              <div className="checkbox-container special">
+                <label className="custom-checkbox special">
                   <input
                     type="checkbox"
                     checked={isChecked2}

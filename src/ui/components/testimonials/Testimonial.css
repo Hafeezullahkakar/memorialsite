@@ -142,5 +142,14 @@
   color: #FFFFFF;
   @media (max-width:768px) {
    margin-top: 7s0px;;
+   width: 100vw;
+   text-align: center;
+  
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .testimonials-author {
+    width: 100vw;
+    text-align: center;
   }
 }

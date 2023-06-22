@@ -1358,8 +1358,50 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   flex-grow: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
   .login-button {
     width: 30vw;
   }
+  .profile-picture > img{
+
+    margin-left: 0px !important;
+    
+  }
+  .profile-picture{
+    margin-left: 0px !important;
+    width: 100vw;
+    left: 24%;
+ 
+
+  }
+  .name-section{
+    margin-left: 30px;
+  }
+  .share-button{
+    margin-left: 0px;
+    position: absolute;
+    left: 25%;
+  }
+  .checkbox-container > .chkk{
+    padding-left: 0px !important;
+    position: relative;
+    left: 33%;
+  }
+  .custom-checkbox{
+    width: 50vw;
+  }
+  .checkbox-container > p{
+    display: none !important;
+  }
+  .notification-section{
+    position: relative;
+    left: 8%;
+    margin-top: 20px;
+  }
+  .action-btn{
+    display: none !important;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  
 }

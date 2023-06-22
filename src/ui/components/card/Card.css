@@ -22,23 +22,58 @@
   width: 100%;
   /* margin-left: 10px; */
 }
-@media (max-width: 768px) {
+@media (min-width: 480px) and (max-width: 768px) {
   .card {
     padding: 20px;
     margin-left: 0px;
+  }
+ 
+  .gallery-item{
+    position: relative;
+    left: 15vw;
+  }
+  .story-title{
+    padding-right: 0px;
+  }
+  .checkbox-container > .chkk{
+    position: relative;
+    left: 8%;
+  }
+  .card-container{
+    margin-left: 20px;
   }
 }
 
 @media (max-width: 480px) {
   .card {
-    padding: 10px;
+   
     /* justify-content: center; */
     align-items: center;
     /* display: flex; */
+    width: 85vw !important;
+    position: relative;
+ 
   }
   .story-img > img{
     height: 250px;
-    width: 90%;
-    margin-left: 10px;
+    width: 100%;
+   
   }
+  .notification-section{
+    width: 70vw;
+  }
+  .gallery-item > img{
+    width: 70vw;
+    position: relative;
+    left: -8%;
+    align-items: center;
+  }
+  .content-card{
+    height: fit-content !important;
+  }
+  .card{
+    padding: 6px;
+  }
+  .share-button{ display: none !important;}
+  
 }

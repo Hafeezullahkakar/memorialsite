@@ -51,8 +51,8 @@ p {
   order: 2;
   flex-grow: 0;
   @media (max-width:768px) {
-    margin-bottom:5vw;
-    height:10vw;
+    margin-bottom:30px;
+    height:26px;
   }
   
 }
@@ -93,6 +93,10 @@ letter-spacing: 0.2px;
 text-transform: uppercase;
 
 color: #5C5470;
+@media (max-width:768px) {
+  position: relative;
+  left: 15%;
+}
 
 }
 .share-second-para{

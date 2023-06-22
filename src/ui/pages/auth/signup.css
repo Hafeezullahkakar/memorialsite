@@ -557,4 +557,23 @@
       align-items: center;
     }
   }
+  @media (max-width: 400px) {
+    .rember{
+      display:flex ;
+      flex-direction: column;
+    }
+    .remberme{
+      font-size: 12px !important;
+    }
+    .rember > p{
+      font-size: 12px !important;
+    }
+    .ordivire1{
+      margin-left: 0px !important;
+    }
+  }
+  
+  @media (min-width: 600px) and (max-width: 800px) {
+    
+  }
   

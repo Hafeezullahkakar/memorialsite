@@ -283,3 +283,21 @@
     margin-top: 20px;
   }
 }
+@media  (max-width: 400px) {
+  .memopricing-card1{
+    width: 80vw !important;
+  }
+  .memoget-started{
+    margin: 10px;
+    
+    
+  }
+  .memoline{
+    display: flex;
+    direction: row;
+    line-height: 16px;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  
+}

@@ -16,7 +16,7 @@ const FindMemorial = () => {
           <img src={Vector} />
 
           <div className="btnContent">
-            <p>All Memorials Websites</p>
+            <p>All Memorials </p>
 
             <BsArrowRight className="btnIcon" />
           </div>
@@ -24,7 +24,7 @@ const FindMemorial = () => {
         <a className="btn">
           <img src={Vector1} />
           <div className="btnContent">
-            <p>First Responders Memorials</p>
+            <p>First Responders </p>
             <BsArrowRight className="btnIcon" />
           </div>
         </a>
